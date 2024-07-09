@@ -1,3 +1,4 @@
+import javax.swing.text.Position;
 import java.util.LinkedList;
 
 public class MazeSolver {
@@ -13,6 +14,8 @@ public class MazeSolver {
     //2 = destination
     LinkedList<Position> path = new LinkedList<>(Position);
     public static void main(String[] args) {
-
+        Position p = new Position();
+        p.x=3;
+        p.y=0;
     }
 }
